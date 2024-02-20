@@ -20,7 +20,8 @@ export default function AllPlayers() {
     return (
       <>
         {players.map(player=>
-            <ul>{player.name}</ul>)}
+            <div>{player.name}</div>)}
       </>
+      
     )
   }
